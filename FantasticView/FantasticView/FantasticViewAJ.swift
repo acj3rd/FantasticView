@@ -9,13 +9,13 @@
 import Foundation
 import UIKit
 
-class FantasticViewAJ : UIView {
+public class FantasticViewAJ : UIView {
     
     let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
     
     var colorCounter = 0
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         
         // The Main Stuff
@@ -29,7 +29,7 @@ class FantasticViewAJ : UIView {
         scheduledColorChanged.fire()  //5
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         // You don't need to implement this
