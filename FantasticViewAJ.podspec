@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FantasticViewAJ'
-  s.version          = '0.1.5'
+  s.version          = '0.1.7'
   s.summary          = 'AJ test for simple pod.'
  
   s.description      = <<-DESC
@@ -13,6 +13,6 @@ This fantastic view changes its color gradually makes your app look fantastic!
   s.source           = { :git => 'https://github.com/acj3rd/FantasticView.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = 'FantasticView/**/FantasticView.swift'
+  s.source_files = 'FantasticView/**/FantasticViewAJ.swift'
  
 end
