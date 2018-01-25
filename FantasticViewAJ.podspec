@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FantasticViewAJ'
-  s.version          = '0.1.2'
+  s.version          = '0.1.5'
   s.summary          = 'AJ test for simple pod.'
  
   s.description      = <<-DESC
